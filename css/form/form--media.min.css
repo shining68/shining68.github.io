@@ -1,0 +1,22 @@
+@media only screen and (max-width: 1200px) {
+  .form-block form input[type="text"] {
+    width: -webkit-calc((100% - 197px - 3%) / 3);
+    width: calc((100% - 197px - 3%) / 3); } }
+
+@media only screen and (max-width: 959px) {
+  .form-block form input[type="text"] {
+    width: 49%;
+    margin: 1% 0; }
+  .form-block form button {
+    display: block;
+    margin: 1% 0; } }
+
+@media only screen and (max-width: 550px) {
+  .form-block {
+    padding: 15px 0; }
+    .form-block form input[type="text"] {
+      width: 100%;
+      margin: 2% 0; }
+    .form-block form button {
+      display: block;
+      margin: 2% auto; } }

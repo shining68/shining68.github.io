@@ -1,0 +1,17 @@
+@media only screen and (max-width: 1200px) {
+  .footer-block {
+    padding: 40px 0 30px; }
+    .footer-block__title {
+      margin-bottom: 20px; } }
+
+@media only screen and (max-width: 767px) {
+  .footer-block {
+    padding: 20px 0; }
+    .footer-block__title {
+      font-size: 15px;
+      margin-bottom: 10px; }
+      .footer-block__title span {
+        font-size: 18px; }
+    .footer-block__copirate {
+      font-size: 15px;
+      line-height: 1; } }
