@@ -1,0 +1,29 @@
+@media only screen and (max-width: 1500px) {
+  .main-banner__iteam {
+    -webkit-background-size: cover;
+    background-size: cover; }
+    .main-banner__iteam__title {
+      width: 90%; } }
+
+@media only screen and (max-width: 1200px) {
+  .main-banner__iteam {
+    height: 580px; }
+    .main-banner__iteam__title {
+      top: 40%; }
+    .main-banner__iteam__btn-block {
+      width: 100%;
+      text-align: center; } }
+
+@media only screen and (max-width: 959px) {
+  .main-banner__iteam {
+    height: 450px; } }
+
+@media only screen and (max-width: 767px) {
+  .main-banner__iteam {
+    height: auto;
+    padding: 60px 0; }
+    .main-banner__iteam__title {
+      position: relative;
+      margin-bottom: 25px; }
+    .main-banner__iteam__btn-block {
+      position: relative; } }

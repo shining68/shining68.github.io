@@ -1,0 +1,20 @@
+.footer-block {
+  padding: 70px 0 50px;
+  text-align: center;
+  font-family: Intro;
+  font-weight: 400; }
+  .footer-block--gray {
+    background-color: #1b2429; }
+  .footer-block__title {
+    color: #4e5355;
+    font-size: 22px;
+    margin-bottom: 45px; }
+    .footer-block__title span {
+      color: #707476;
+      font-size: 27px;
+      display: block; }
+  .footer-block__copirate {
+    color: #494d50;
+    font-family: Raleway;
+    font-size: 20px;
+    font-weight: 700; }

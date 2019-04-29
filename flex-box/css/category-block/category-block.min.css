@@ -1,0 +1,75 @@
+.category-block {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-wrap: wrap;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  -webkit-box-align: start;
+  -webkit-align-items: flex-start;
+  -ms-flex-align: start;
+  align-items: flex-start; }
+  .category-block__iteam {
+    border: 5px solid #ffffff;
+    height: 315px;
+    width: 25%;
+    position: relative;
+    -webkit-background-size: cover;
+    background-size: cover;
+    background-position: center;
+    text-decoration: none;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box; }
+    .category-block__iteam__title {
+      color: #ffffff;
+      font-family: Raleway;
+      font-size: 22px;
+      font-weight: 700;
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      -webkit-transform: translate(-50%, -50%);
+      -ms-transform: translate(-50%, -50%);
+      transform: translate(-50%, -50%); }
+    .category-block__iteam:before {
+      content: '';
+      display: block;
+      position: absolute;
+      top: 0;
+      right: 0;
+      left: 0;
+      bottom: 0;
+      background-color: rgba(41, 58, 67, 0.65);
+      -webkit-transition: 0.3s ease;
+      -o-transition: 0.3s ease;
+      transition: 0.3s ease; }
+    .category-block__iteam:hover .category-block__iteam__title {
+      color: #f0650d; }
+    .category-block__iteam:hover:before {
+      background-color: rgba(41, 58, 67, 0.8); }
+    .category-block__iteam--big-width {
+      width: 50%; }
+    .category-block__iteam--big-heigt {
+      height: 631px; }
+  .category-block .row {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-flex-wrap: wrap;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    -webkit-box-pack: justify;
+    -webkit-justify-content: space-between;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    width: 75%; }
+    .category-block .row .category-block__iteam {
+      width: 33.3%; }
+      .category-block .row .category-block__iteam--big-width {
+        width: 66.7%; }

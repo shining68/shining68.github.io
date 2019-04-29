@@ -1,0 +1,24 @@
+@media only screen and (max-width: 1023px) {
+  .main-description {
+    padding: 40px 0; }
+    .main-description__iteam--left {
+      width: 100%;
+      border-right: none;
+      padding: 0; }
+    .main-description__iteam--right {
+      display: none; }
+    .main-description__iteam__title {
+      margin-bottom: 30px; }
+    .main-description__iteam p:last-child {
+      margin-bottom: 0; } }
+
+@media only screen and (max-width: 767px) {
+  .main-description {
+    padding: 25px 0; }
+    .main-description__iteam__title {
+      margin-bottom: 15px;
+      font-size: 24px; } }
+
+@media only screen and (max-width: 639px) {
+  .main-description__iteam__title {
+    font-size: 18px; } }
